@@ -12,29 +12,23 @@ SQL Server or a compatible database
 Installation
 Clone the repository:
 
-bash
-
 git clone https://github.com/LemaTaposhe/LibraryCoreApi.git
 Navigate to the project directory:
 
-bash
 
 cd LibraryCoreApi
 Restore the dependencies:
 
-bash
 
 dotnet restore
 Update the connection string in appsettings.json to match your database configuration.
 
 Apply any pending migrations and update the database:
 
-bash
 
 dotnet ef database update
 Run the application:
 
-bash
 
 dotnet run
 The API will be available at https://localhost:5001 by default.
